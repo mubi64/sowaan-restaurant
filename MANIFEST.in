@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sowaan_restaurant *.css
+recursive-include sowaan_restaurant *.csv
+recursive-include sowaan_restaurant *.html
+recursive-include sowaan_restaurant *.ico
+recursive-include sowaan_restaurant *.js
+recursive-include sowaan_restaurant *.json
+recursive-include sowaan_restaurant *.md
+recursive-include sowaan_restaurant *.png
+recursive-include sowaan_restaurant *.py
+recursive-include sowaan_restaurant *.svg
+recursive-include sowaan_restaurant *.txt
+recursive-exclude sowaan_restaurant *.pyc
