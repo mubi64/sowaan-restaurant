@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "creation": "2023-05-23 11:50:44.759484",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "billable_items_category",
+  "deals_group",
+  "deals_addons"
+ ],
+ "fields": [
+  {
+   "fieldname": "billable_items_category",
+   "fieldtype": "Table",
+   "label": "Billable Items Category ",
+   "options": "Sowaan POS Billable Categories"
+  },
+  {
+   "fieldname": "deals_group",
+   "fieldtype": "Table",
+   "label": "Deals Group",
+   "options": "Sowaan POS Deals Group"
+  },
+  {
+   "fieldname": "deals_addons",
+   "fieldtype": "Table",
+   "label": "Deals Addons",
+   "options": "Sowaan POS Deal Addons"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-05-23 17:02:38.925692",
+ "modified_by": "Administrator",
+ "module": "Sowaan Restaurant",
+ "name": "Sowaan Tablet POS Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Employee",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

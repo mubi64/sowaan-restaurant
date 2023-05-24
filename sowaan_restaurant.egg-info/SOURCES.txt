@@ -15,6 +15,8 @@ sowaan_restaurant.egg-info/top_level.txt
 sowaan_restaurant/config/__init__.py
 sowaan_restaurant/config/desktop.py
 sowaan_restaurant/config/docs.py
+sowaan_restaurant/fixtures/custom_field.json
 sowaan_restaurant/sowaan_restaurant/__init__.py
 sowaan_restaurant/templates/__init__.py
 sowaan_restaurant/templates/pages/__init__.py
+sowaan_restaurant/www/__init__.py
